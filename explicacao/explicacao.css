@@ -1,0 +1,49 @@
+/*Ctrl+ Shift + C para inspeconar cada elemento da pagina*/
+
+
+h1 {
+    color:blue;
+    font-size:  10px;
+    font-weight: 10px;
+}
+
+
+/*pra classe usa . antes*/
+
+.meuheader {
+
+    border: 1px solid red;
+    background-color: beige;
+}
+
+.lucida {
+    font-family:'Courier New', Courier, monospace;
+    color: blue; 
+}
+/*id sobrepõea classe*/
+#primeiro {
+    color: green;
+}
+
+/*Flex deixa a classe se movimentar*/
+.lista {
+
+    display: flex;
+    border: 1px solid red;
+    height: 50vh;
+    /*vh é o tamanho da tela do site*/
+    width: 100%; 
+    /*porcentagem é o tamanho do pai do item*/
+    align-items: center; /*eixo y*/
+    justify-content: space-around; /*eixo x*/
+    /* space-around: espaço como padding entre os elementos*/
+    margin-top: 60px;
+    padding: 60px;
+
+}
+
+/*
+abre terminal
+$git add
+$git commit -m "repositorio"
+$git*/

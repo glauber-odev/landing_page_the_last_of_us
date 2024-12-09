@@ -1,0 +1,35 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box; /*uma caixinha dentro da outra */
+    list-style: none;   /*bolinha do list some*/
+    text-decoration: none; /*pra nao aparecer o link*/
+
+}
+
+/* CTRL + : serve para comentar a linha escrita */
+
+
+
+/*  : é um seletor pra poder acessar*/
+:root {
+
+    /* --para ciar uma variavel*/
+    --color-primary: red;
+    --color-secondary: #8E0000;
+    --color-grey-1: #474747;
+    --color-grey-2: #ffffff;
+    --color-grey-3: #000000;
+    --text-color-1: #c7c7c7cc;
+
+}
+
+bosy {
+
+    font-family: "Iceland" , sans-serif;
+    width: 100vw;  /*view Width */
+    height: 100vh; /*view height*/
+
+}

@@ -1,0 +1,310 @@
+/* CONFIGURAÇÕES GERAIS */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.home {
+    background-image: url(../images/background.svg);
+    height: 900px;
+    background-repeat: no-repeat;
+    /* back n repita */
+    background-size: cover;
+    /* back n sai da div home */
+    background-position: top right;
+    /* vem de cima pra direita */
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container {
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+    /*similar a deixar no centro*/
+}
+
+/* > siginifa ser pai de  */
+
+figure>img {
+
+    height: 144px;
+    width: 254px;
+
+}
+
+nav {
+    width: 70%;
+}
+
+nav>ul {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul>li>a {
+    color: var(--color-grey-2);
+    font-family: Iceland;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+
+}
+
+/* Hover é o efeito quando passa mouse por cima */
+
+ul>li>a:hover {
+    font-weight: 600;
+}
+
+/*acima o wiegth muda*/
+
+
+main {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 15px;
+
+}
+
+h1 {
+    width: 668px;
+    font-family: Iceland;
+    font-size: 92px;
+    font-weight: 400;
+    line-height: 89px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-grey-2);
+
+}
+
+main>p {
+    width: 506px;
+    height: 51px;
+    font-family: 'Actor';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: var(--color-grey-1);
+
+}
+
+button {
+    height: 46px;
+    width: 180px;
+    left: 5002px;
+    top: 25px;
+    color: var(--color-grey-2);
+    margin: 10px;
+    font-family: Iceland;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.active {
+    background-color: var(--color-secondary);
+}
+
+.active:hover {
+    border: 2px solid var(--color-grey-2);
+}
+
+.inactive {
+    background-color: var(--color-grey-1);
+}
+
+.inactive:hover {
+    border: 2px solid var(--color-grey-2);
+}
+
+main>section {
+    margin-top: 100px;
+}
+
+h3 {
+    width: 336px;
+    height: 65px;
+    font-family: 'Iceland';
+    text-align: left;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 25px;
+    color: var(--color-grey-2);
+}
+
+section > ul {
+    width: 800px;
+}
+
+section>ul>li {
+    width: 261.78px;
+    height: 139.21px;
+    background: url(../images/episodes/episode1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+/* TELA 02 */
+.episodes {
+    background-image: url(../images/backgroundEpisodes.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.posts {
+    height: 540px;
+    width: 479px;
+    margin-top: 80px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.posts > p {
+    color: var(--color-grey-2);
+    font-family: Iceland;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.episodes-list {
+    height: 767px;
+    width: 671px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.card {
+    display: flex;
+    height: 182px;
+    width: 650px;
+    align-items: center;
+    margin: 10px auto;
+    background-color: var(--color-grey-3);
+}
+
+.card > img {
+    height: 120px;
+    width: 250px;
+    border-radius: 12px;
+}
+
+.card-text {
+    width: 60%;
+    height: 80%;
+    margin: 20px;
+}
+
+/* EPISODES */
+
+.card-text > h4 {
+    height: 30px;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+    color: var(--color-grey-2);
+}
+
+.card-text > p {
+    width: 324px;
+    height: 88px;
+    left: 5690px;
+    top: 639px;
+    border-radius: nullpx;
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-grey-2);
+}
+
+/* MUDAR A SCROLLBAR 
+.NOME-CLASS::-WEBKIT...*/
+.episodes-list::-webkit-scrollbar{
+    background-color: var(--color-secondary);
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+
+/* TELA 03*/
+
+
+/* DEGRADE GRADIENTE */
+footer{
+    height: 377px;
+    background: linear-gradient(180deg, #000000 0%, #950202 289.06%);
+}
+
+footer > figure > img {
+    height: 140px;
+    width: 140px;   
+}
+
+
+h2 {
+    height: 65px;
+    width: 336px;
+    font-family: Iceland;
+    font-size: 26px;
+    font-weight: 400px;
+    line-height: 25px;
+    text-align: left;
+    color: var(--color-grey-2);
+}
+
+.container > section > h2 {
+    height: 47px;
+    width: 668px;
+    left: 5446px;
+    font-family: Iceland;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 47px;
+    text-align: left;
+    color: var(--color-grey-2);
+  }
+
+.contaier > section > h3 {
+    height: 31px;
+    width: 449px;
+    font-family: Iceland;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: left;
+    color: var(--color-grey-2);
+    margin: 0 auto;  
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
